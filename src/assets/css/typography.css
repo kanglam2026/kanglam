@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@reference "./global.css";
+
+.bs-h1 {
+  @apply font-display font-medium text-balance text-5xl md:text-6xl;
+}
+
+.bs-h2 {
+  @apply font-display font-medium text-balance text-3xl md:text-4xl;
+}
+
+.bs-h3 {
+  @apply font-display font-medium text-balance text-lg md:text-2xl;
+}
+
+.bs-body-text {
+  @apply leading-relaxed;
+}
+
+.bs-monlam {
+  @apply font-monlam font-normal text-balance text-5xl md:text-6xl;
+}
+
+.font-monlam {
+  font-family: "MonlamUniOuChan2", "ui-sans-serif", "system-ui", "sans-serif";
+}
+.font-qomochuyig{
+    font-family: "Qomolangma-Chuyig","MonlamUniOuChan2";
+}

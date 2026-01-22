@@ -1,0 +1,44 @@
+---
+
+import Logo from '../assets/theme-images/kanglam-logo.svg'
+
+const { settings } = Astro.props
+
+---
+
+<header class="wrapper bg-loop ">
+
+  <!-- Wrapper -->
+  <div class="w-full bs-container py-6 flex justify-between  items-center">
+
+    <!-- Logo -->
+    <a class="  flex justify-center items-center" href="/" aria-label={ settings.title + ' - Home' }>
+
+      <Logo class="group-hover:-rotate-180 group-hover:scale-80 transition-transform ease-bs-spring duration-1000 " height="50" width="50" />
+      <h2 class="  font-qomochuyig text-3xl sm:block hidden">རྐང་ལམ།</h2>
+    </a>
+
+    <!-- Nav -->
+    <nav class="bg-amber-300/20  rounded-full border-2 py-2 border-amber-300 overflow-hidden shadow-lg">
+
+      <!-- Links -->
+      { settings.nav.map( item =>
+
+        <a class="  before:translate-y-full hover:before:translate-y-0 font-monlam px-5 py-4 bg-amber-950 rounded-md text-amber-300 hover:bg-amber-600 " href={item.link}>
+          { item.title } 
+        </a>
+
+      )}
+
+    </nav>
+
+    <!-- CTA -->
+    <!-- <button type="button" class="min-w-32 bs-btn font-monlam " onclick="demo.showModal()">
+
+      { settings.demo.title }
+
+    </button> -->
+
+  </div>
+
+</header>

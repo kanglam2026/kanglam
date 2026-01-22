@@ -1,0 +1,21 @@
+---
+
+const { title, testimonials } = Astro.props
+
+---
+
+<section class="bs-container bs-mt-lg" id="about">
+
+  <!-- Title -->
+  { title && <h2 class="bs-h2 text-center md:text-left font-monlam">{ title }</h2>}
+  <!-- { title && <h2 class="bs-h2 text-center md:text-left">About</h2>} -->
+  <!-- Testimonials -->
+  <div class="group bs-mt-md place-content-center gap-4   rounded-xl flex justify-center">
+    <div class=" col-span-2 bs-mt-sm font-monlam   p-2 lg:p-5 rounded-2xl max-w-xl border-2 border-amber-500">
+        <p class="text-xl leading-relaxed">རྐང་ལམ་གྱིས་རང་བྱུང་གི་གནོད་འཚེ་བྱུང་སྟེ་ཁ་པར་གྱི་བརྡ་རྟགས་དང་དྲ་རྒྱ་ཆད་པའི་གནས་སྐབས་སུ། ས་ཁུལ་ཞིག་གི་ནང་གི་མི་ཕན་ཚུན་བར་མུ་མཐུད་ནས་འབྲེལ་བ་བྱེད་ཐུབ་པའི་ནུས་པ་མཁོ་སྤྲོད་བྱས་ཏེ། ཛ་དྲག་གི་གནས་སྟངས་ཞི་འཇམ་དུ་གཏོང་བར་རོགས་འདེགས་བྱེད་ངེས། འཕྲུལ་རིག་ཆེད་མཁས་པ་དང་། མ་ལག་བཟོ་སྐྲུན་པ། ཆ་འཕྲིན་ལག་རྩལ་ལ་དོ་སྣང་ཡོད་པའི་མི་དཀྱུས་མ་བཅས་ཀྱིས་རྐང་ལམ་འདིའི་སྟེང་ནས་རང་ཉིད་ལ་དབང་བའི་དྲ་བ་ཞིག་གི་ཕྱོགས་སུ་གོམ་པའི་འདེགས་འཇོག་བསྒྱུར་ཆོག</p>
+    </div>
+    <!-- <img src="../wallpapers/blackspike-wallpaper-04.jpg" alt="" class="col-span-2 p-10"> -->
+  </div>
+
+</section>
+

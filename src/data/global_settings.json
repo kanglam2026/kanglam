@@ -1,0 +1,40 @@
+{
+  "title": "རྐང་ལམ།",
+  "description": "",
+  "social_image": "/1200x630.jpg",
+  "base_url": "",
+  
+  "demo": {
+    "title": "རྐང་ལམ།",
+    "content": "Welcome to <strong>Kanglam</strong>.",
+    "cta": "སྒྲིག་འཇུག"
+  },
+
+  "theme_color": "#3959d1",
+  "nav": [
+    {
+      "title": "ཁྱད་ཆོས།",
+      "link": "/#features"
+    },
+ 
+ 
+    {
+      "title": "དྲི་བ།",
+      "link": "/#faq"
+    }
+  ],
+
+  "social_links": [
+    {
+      "title": "Wechat Tibetan",
+      "link": "",
+      "icon" : "../icons/wechat-round.svg"
+    },
+    {
+      "title": "github",
+      "link": "",
+      "icon" : "../icons/github.svg"
+    }
+    
+  ]
+}

@@ -1,0 +1,41 @@
+---
+
+import Logo from '../assets/theme-images/kanglam-logo.svg'
+
+const { settings } = Astro.props
+
+---
+
+<footer class="@container bs-container my-24   [&_a]:hover:text-bs-foreground-light [&_a]:transition-color [&_a]:duration-150" id="contact">
+
+  <!-- Wrapper -->
+  <div class="bg-bs-surface-2 p-6 md:p-16 rounded-xl grid grid-cols-1 gap-8 lg:grid-cols-2">
+    <div class="font-monlam text-amber-300  p-5 lg:p-10 rounded-2xl border-2 border-amber-300">
+      <h2 class="text-3xl">ང་ཚོའི་སྐོར།</h2>
+      <p class="py-2">རྐང་ལམ་གྱིས་རང་བྱུང་གི་གནོད་འཚེ་བྱུང་སྟེ་ཁ་པར་གྱི་བརྡ་རྟགས་དང་དྲ་རྒྱ་ཆད་པའི་གནས་སྐབས་སུ། ས་ཁུལ་ཞིག་གི་ནང་གི་མི་ཕན་ཚུན་བར་མུ་མཐུད་ནས་འབྲེལ་བ་བྱེད་ཐུབ་པའི་ནུས་པ་མཁོ་སྤྲོད་བྱས་ཏེ། ཛ་དྲག་གི་གནས་སྟངས་ཞི་འཇམ་དུ་གཏོང་བར་རོགས་འདེགས་བྱེད་ངེས། འཕྲུལ་རིག་ཆེད་མཁས་པ་དང་། མ་ལག་བཟོ་སྐྲུན་པ། ཆ་འཕྲིན་ལག་རྩལ་ལ་དོ་སྣང་ཡོད་པའི་མི་དཀྱུས་མ་བཅས་ཀྱིས་རྐང་ལམ་འདིའི་སྟེང་ནས་རང་ཉིད་ལ་དབང་བའི་དྲ་བ་ཞིག་གི་ཕྱོགས་སུ་གོམ་པའི་འདེགས་འཇོག་བསྒྱུར་ཆོག</p>
+    </div>
+
+  <div class="  font-monlam flex justify-around flex-col">
+
+    <nav class=" flex gap-3 lg:flex-col item-center justify-center lg:items-end ">
+      { settings.social_links.sort((a,b) => a.title.localeCompare(b.title)).map( item =>
+
+        <a href={ item.link }>
+          {/* { item.title } */}
+          <img src={item.icon} alt={item.icon} class="w-12">
+        </a>
+      )}
+    </nav>
+    
+    <div class="flex justify-center lg:justify-end pt-5">
+      <a href="#"་ class="font-monlam font-medium">རྐང་ལམ། ༢༠༢༥</a>
+    </div>
+
+  </div>
+
+
+  <!-- Colophon -->
+
+
+</footer>
+
