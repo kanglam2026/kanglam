@@ -54,8 +54,6 @@ export default defineConfig({
       ]
     },
     
-  ]
-
-    
+  ]  
   }
 })
