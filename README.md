@@ -2,6 +2,7 @@
 
 དྲ་རྒྱ་དང་གློག་མེད་རུང་། ཐུགས་ཁྲལ་གནང་མི་དགོས། 香橙派 མཁྲེགས་ཆས་ཡོད་ན། ཁྱེད་ཀྱིས་རྐང་ལམ་གྱི་མཉེན་མཛོད་ནས་མཉེན་ཆས་སྣ་ཚོགས་ཕབ་ལེན་བྱེད་ཐུབ།
 
+
 [<img src="public/theme-preview/github-preview.jpg" alt="screens showing theme parts on iPads" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/github-preview.jpg)
 
 ## A free, modern, [Astro](https://astro.build/) landing page theme made with [Tailwind](https://tailwindcss.com/) to help kick start your next Astro project
